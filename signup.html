@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<meta charset="utf-8" />
+<html>
+
+<body>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#header").load("header.html");
+
+            $("#Mobile-navbar").load("mobile-navbar.js");
+        });
+    </script>
+    </header>
+    <div id="header"> </div>
+
+    <form id="signup">
+        <fieldset>
+            <div class="nome">
+                <label for="nome"> <b> Nome </b> </label>
+                <input type="text" placeholder="Insira seu nome">
+            </div>
+
+            <div class="sobrenome">
+                <label for="sobrenome"> <b> Sobrenome </b> </label>
+                <input type="text" placeholder="Insira seu sobrenome">
+            </div>
+
+            <div class="genero">
+                <label for=""> <b> Gênero </b></label>
+                <input type="radio" value="Masculino" id="Masculino" name="sexo">
+                <label for=""> Masculino </label>
+                <input type="radio" value="Feminino" id="Feminino" name="sexo">
+                <label for=""> Feminino </label>
+                <input type="radio" value="Outro" id="Outro" name="sexo">
+                <label for=""> Outro </label>
+                <input type="text" placeholder="Qual?">
+            </div>
+
+            <div class="email">
+                <label for="email"> <b> E-mail </b></label>
+                <input type="email" placeholder="example@email.com" onblur="validarEmail()" onfocus="redefinirMsg()"
+                    id="email">
+                <span id="error-email"></span>
+            </div>
+
+            <div class="CPF">
+                <label for="cpf"> <b> CPF </b> </label>
+                <input type="text" id="cpf" placeholder="Insira seu CPF" autocomplete="off" maxlength="14"
+                    onkeyup="mascara_cpf()">
+
+            </div>
+
+            <div class="arquivo">
+                <label for="arquivo"><b> Sua Foto </b></label>
+                <input type="file">
+            </div>
+
+            <div class="senha">
+                <label for="senha"> <b> Senha </b></label>
+                <input type="password" id="senhaForca" name="senhaForca" placeholder="Insira uma senha forte">
+            </div>
+
+
+            <div>
+                <button type="submit" id='enviar'> Enviar </button>
+                <button type="reset" id='reset'> Limpar </button>
+            </div>
+
+        </fieldset>
+    </form>
+</body>
+
+<footer>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function () {
+            $("#footer").load("footer.html");
+
+            $("#Mobile-navbar").load("mobile-navbar.js");
+        });
+    </script>
+</footer>
+<div id="footer"> </div>
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+<script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<script type="text/javascript" src="./js/main.js"> </script>
+
+</html>
