@@ -36,6 +36,7 @@ main {
     width: 100%;
     border-bottom: 3px solid  #64c5bb ;
     text-align: center;
+    z-index: 3;
 
 }
 .menu ul li {
@@ -57,32 +58,71 @@ main {
     font-size: 17px;
 
 }
-.busca{  
-    float: left;
-    text-align: center;
-    position: absolute;
-    padding-right: 470px;
-    top: -52px;
- 
-}
-.busca input{
-    height: 32px;
-    margin-top: -58px;
-    text-align: center;
-    width: 190px;
-    border: 1px solid black;
+.menu ul button{
+    display: inline-block;
+    position: relative;
+    top: 16px;
+    margin-right: -166px;
 }
 
-.flex-container .busca {
-    float: right;
-    margin: 10px;
-    font-size: 17px;
-    position: relative;
-}
 .col-100{
     width: 100%;
     float: left;
     position: relative;
+
+}
+button.slick-prev {
+    font-size: 0;
+    border: none;
+    background-color: transparent;
+}
+button.slick-next{
+    font-size: 0;
+    border: none;
+    background-color: transparent;
+}
+
+.slick-list{
+    width:100%!important;
+
+}
+.slick-initialized{
+    overflow: hidden;
+
+}
+.slick-dots li button{
+font-size: 0px;
+border: 5px solid;
+border-color: white;
+height:20px;
+background-color: transparent;
+border-radius: 50%;
+cursor: pointer;
+
+}
+.slick-dots{
+    margin: 0 auto;
+    width: 50%;
+    position: absolute;
+    left:50%;
+    top: 580px;
+
+}
+
+.slick-dots li {
+    padding-left: 10px;
+    display: inline-block;
+
+}
+li.slick-active button {
+    background: #75E6DA ;
+}
+
+.col-100 h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
 }
 .menu-urls{
     height: 80px
@@ -90,4 +130,253 @@ main {
 .slider-main img {
     width: 1854px;
     height: 600px;
+}
+.pesquisa{
+    max-width: 650px;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%)
+}
+
+.pesquisa input[type="text"] {
+    background-color: #c9f7f2;
+    width: 50%;
+    text-align: center;
+    height: 60px;
+    font-size: 17px;
+    border-radius: 8px;
+ 
+}
+
+.pesquisa button[type="submit"] {
+    background-color: #75E6DA;
+    width: 16%;
+    height: 50px;
+    font-size: 17px;
+    margin-left: 200px;
+    border-radius: 8px;
+}
+.mapa iframe{
+    position: relative;
+    margin-top: 110px;
+}
+h2{
+    position: relative;
+    margin-top: 60px;
+    text-align: justify;
+    width: 980px;
+    margin-left: 450px;
+    font-family: sans-serif;
+}
+.Contactus{ 
+    padding-top: 120px;
+    width: 650px;
+    height: 50px;
+    margin-left: 485px;
+    text-align: center;
+    font-family:  sans-serif;
+    font-size: 40px;
+}
+.textus{
+    position: relative;
+    padding-top: 1px;
+    width: 250px;
+    margin-left: 670px;
+    text-align: center;
+    font-family:  sans-serif;
+    font-size: 30px;
+
+}
+.Who {
+    position: relative;
+    padding-top: 30px;
+    width: 250px;
+    height: 50px;
+    margin-left: 780px;
+    text-align: center;
+    font-family:  sans-serif;
+    font-size: 40px;
+
+}
+.We {
+    padding-top: 160px;
+    width: 250px;
+    margin-left: 780px;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 40px;
+}
+
+form fieldset {
+    background-color: #75E6DA ;
+    max-width: 600px;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+form input[type= text] {
+    position: relative;
+    width: 100%;
+    height: 40px;
+    border: 1px solid#ccc;
+    right: 5px;
+
+}
+form input[type= email] {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    border: 1px solid#ccc;
+    right: 5px;
+
+}
+form input[type= password] {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    border: 1px solid#ccc;
+    right: 5px;
+
+}
+form input[type= file] {
+    position: relative;
+    width: 100%;
+    height: 45px;
+    border: 1px solid#ccc;
+    right: 5px;
+
+}
+#reset{
+    position: relative;
+    background-color: #c9f7f2;
+    width: 25%;
+    text-align: center;
+    margin-left: 10%;
+    margin-top: 5%;
+    height: 30px;
+    border-radius: 8px;
+
+}
+#enviar{ background-color: #c9f7f2;
+    width: 25%;
+    text-align: center;
+    margin-left: 20%;
+    margin-top: 5%;
+    height: 30px;
+    border-radius: 8px ;
+}
+
+.message input[type="text"] {
+    background-color: #c9f7f2;
+    width: 60%;
+    text-align: center;
+    height: 120px;
+    font-size: 17px;
+    border-radius: 8px;
+
+ 
+}
+
+.message button[type="submit"] {
+    background-color: #75E6DA;
+    width: 15%;
+    height: 50px;
+    font-size: 17px;
+margin-left: 30px;
+    border-radius: 8px;
+
+}
+.message {
+
+    max-width: 600px;
+    width: 70%;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}
+.cine-paulista{
+    position: relative;
+    top:110px;
+    margin-left: 150px;
+}
+.paulista-text{
+    position: relative;
+    margin-left: 550px;
+    top: -180px;
+}
+.paulista-h2{
+    position: relative;
+    margin-left: 550px;
+    top: -200px;
+    width: 28%;
+    text-align: justify;
+    font-size: 22px;
+}
+.paulista-h3{
+    position: relative;
+    margin-left: 550px;
+    top: -200px;
+    width: 28%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+.cine-olinda{
+    position: relative;
+    top:80px;
+    margin-left: 150px;
+}
+#olinda-text{
+    position: relative;
+    margin-left: 550px;
+    top: -200px;
+}
+#olinda-h2{
+    position: relative;
+    margin-left: 550px;
+    top: -220px;
+    width: 28%;
+    text-align: justify;
+    font-size: 22px;
+}
+#olinda-h3{
+    position: relative;
+    margin-left: 550px;
+    top: -220px;
+    width: 28%;
+    text-align: justify;
+    font-size: 20px;
+}
+
+
+.cine-taca{
+    position: relative;
+    top:80px;
+    margin-left: 150px;
+}
+#taca-text{
+    position: relative;
+    margin-left: 550px;
+    top: -180px;
+}
+#taca-h2{
+    position: relative;
+    margin-left: 550px;
+    top: -200px;
+    width: 28%;
+    text-align: justify;
+    font-size: 22px;
+}
+#taca-h3{
+    position: relative;
+    margin-left: 550px;
+    top: -200px;
+    width: 28%;
+    text-align: justify;
+    font-size: 20px;
 }
