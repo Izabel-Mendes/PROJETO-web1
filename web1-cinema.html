@@ -1,62 +1,45 @@
 <!DOCTYPE html>
+<meta charset="utf-8" />
+
 <html>
+    <body>
 
-<head>
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
-    <title> Distribuidora Époque </title>
-<link rel="icon" type="image/x-icon" href="./img/favicon.png">
-</head>
+    </body>
+    <header>
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script>
+            $(function () {
+                $("#header").load("header.html");
 
-<body>
-    <header class="menu-principal">
-        <main>
-        
-            <div class="header-1">
-                <div class="logo">
-                    <img src="./img/Distribuidoralogo.png">
-                    
-                    
-                    </div>
-                <div class="redes-sociais">
-                    <ul>
-                        <li> <a href=""> <img src="./img/facebook.png"></a> </li>
-                        <li> <a href=""> <img src="./img/instagram.png"> </a> </li>
-                        <li> <a href=""> <img src="./img/twitter.png"> </a> </li>
-                    </ul>
-
+                $("#Mobile-navbar").load("mobile-navbar.js");
+            });
+               </script>
+            </header>
+            <div id="header"> </div>
+            
+            <div class="col-100">
+                <div class="slider-main">
+                    <img src="./img/sunset-g9594c3d7e_1920.jpg" />
+                    <img src="./img/stained-glass-g8c252acfe_1920.jpg" />
+                    <img src="./img/movie-gf6d127b32_1920.jpg" />
                 </div>
-                </div>
-                </main>
-    </header>
-    <main class="col-100 menu-urls">
-        <div class="header-2">
-            <div class="flex-container">
-                <div class="menu">
-                    <ul>
-                        <li> <a href=""> HOME</a></li>
-                        <li> <a href=""> ABOUT</a> </li>
-                        <li> <a href=""> MOVIES </a> </li>
-                        <li> <a href=""> CART</a> </li>
-                        <li> <a href=""> SIGN UP</a> </li>
-                        <li> <a href=""> CONTACT US</a> </li>
-                    </ul>
-                </div>
-                <div class="busca">
-                    <input placeholder="Search" type="text" />
-                </div>
+                <p>
+                <h1> CONFIRA JÁ OS CINEMAS PERTO DE VOCÊ E APROVEITE!! </h1>
+                </p>
             </div>
-        </div>
-    </main>
-    <div class="col-100">
-        <div class="slider-main">
-            <img src="./img/sunset-g9594c3d7e_1920.jpg" />
-            <img src="./img/stained-glass-g8c252acfe_1920.jpg" />
-            <img src="./img/movie-gf6d127b32_1920.jpg" />
-        </div>
-    </div>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
-    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
-    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script type="text/javascript" src="./js/main.js"></script>
+            <footer>
+                <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+                <script>
+                    $(function () {
+                        $("#footer").load("footer.html");
+                
+                        $("#Mobile-navbar").load("mobile-navbar.js");
+                    });
+                       </script>
+                    </footer>
+                    <div id="footer"> </div>
+                    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.0.min.js"></script>
+                    <script type="text/javascript" src="https://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+                    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+                    <script type="text/javascript" src="./js/main.js"></script>
 </html>
