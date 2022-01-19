@@ -1,0 +1,30 @@
+#table-h1{
+    font-size: 25px;
+    font-family: sans-serif;
+    margin-left: 66px;
+
+}
+
+.tabela {
+    border: 1px solid black;
+    width: 20%;
+    text-align: center;
+
+}
+
+
+
+thead { 
+    background-color: #75E6DA;
+}
+
+footer{
+    padding-top: 2%;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    width: 98%;
+}
+
+#quote {
+    width: 10%;
+}
