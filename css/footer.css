@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 #table-h1{
     font-size: 25px;
     font-family: sans-serif;
@@ -28,3 +29,39 @@ footer{
 #quote {
     width: 10%;
 }
+=======
+footer{
+    width:100%;
+    display: flex;
+    align-items: center;
+    align-content: center;
+    flex-direction: column;
+    margin: 20px;
+}
+table{
+    border: 1px solid #3A3A3A;
+    width:80%;
+}
+tr > td{
+    align-content: center;
+}
+a{
+    text-decoration: none;
+    color: #75AA11
+}
+thead { 
+    background-color: #75E6DA;
+}
+h1{
+    font-size: 40px;
+    align-self: center;
+}
+h2{
+    font-size: 30px;
+    font-weight: bold;
+}
+h3{
+    font-size: 20px;
+}
+
+>>>>>>> 3f0878cd2eed4c77b531ce17fc5604aaa8475f3e

@@ -30,13 +30,33 @@ function mascara_cpf() {
         cpf.value += "-"
     }
 }
+<<<<<<< HEAD
 
+=======
+// function mascara_fone() {
+//     const text = fone.value
+//     const isCelular = text.length === 9;
+
+//     let changedText
+
+//     if(isCelular){
+//         const parte1 = changedText.slide(0,5)
+//     }
+// }
+>>>>>>> 3f0878cd2eed4c77b531ce17fc5604aaa8475f3e
 function mascara_fone() {
     var fone = document.getElementById('fone')
     if (fone.value.length == 2) {
         fone.value += " "
+<<<<<<< HEAD
     } else if (fone.value.length == 9) {
         fone.value += "-"
     }
 }
 
+=======
+    } else if (fone.value.length == 8) {
+        fone.value += "-"
+    }
+}
+>>>>>>> 3f0878cd2eed4c77b531ce17fc5604aaa8475f3e
