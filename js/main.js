@@ -30,4 +30,21 @@ function mascara_cpf() {
         cpf.value += "-"
     }
 }
+// function mascara_fone() {
+//     const text = fone.value
+//     const isCelular = text.length === 9;
 
+//     let changedText
+
+//     if(isCelular){
+//         const parte1 = changedText.slide(0,5)
+//     }
+// }
+function mascara_fone() {
+    var fone = document.getElementById('fone')
+    if (fone.value.length == 2) {
+        fone.value += " "
+    } else if (fone.value.length == 8) {
+        fone.value += "-"
+    }
+}
